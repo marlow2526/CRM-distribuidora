@@ -55,6 +55,29 @@ Características principales:
     </tr>
 </table>
 
+###Guia
+1-bajarse python y activar la opcion de PATH en el instalador (muy important)
+2-ver si tenes pip
+    sino instalalo corriendo en el cmd, en la direcion donde esta get-pip.py, python "get-pip.py"
+3- ejecutar pip install django
+
+
+
+
+###Ejecutar la primera vez
+pip install django django-filter
+python manage.py makemigrations crm tasks
+python manage.py migrate
+
+###Para crear admins
+python manage.py createsuperuser
+o ir a url/admin
+
+
+###Para correrlo siempre
+python manage.py runserver
+
+###"Por comandos":
 ### Clone this repository
 
 ```
