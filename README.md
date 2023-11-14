@@ -1,18 +1,20 @@
 # Distribuidora CRM
-es un sistema de gestión de relaciones con el cliente (CRM) desarrollado en Django que presenta un panel de control con un esquema de colores verde azulado.
 
-Características principales:
+**Distribuidora CRM** es un sistema de gestión de relaciones con el cliente (CRM) desarrollado en Django que presenta un panel de control con un esquema de colores verde azulado.
 
-    Gestión de Productos: Permite crear, actualizar o eliminar información relacionada con productos.
+## Características principales:
 
-    Gestión de Órdenes: Facilita la creación, actualización o eliminación de órdenes de compra o ventas.
+- **Gestión de Productos:** Permite crear, actualizar o eliminar información relacionada con productos.
+  
+- **Gestión de Órdenes:** Facilita la creación, actualización o eliminación de órdenes de compra o ventas.
+  
+- **Gestión de Contactos:** Permite administrar y mantener la información de contactos, como clientes, proveedores o cualquier otra entidad relevante.
+  
+- **Búsqueda y Filtros:** Proporciona capacidades de búsqueda y filtrado para encontrar rápidamente información específica de productos, órdenes o contactos.
+  
+- **Tareas Pendientes (ToDo):** Permite crear tareas para recordatorios, lo que puede ser especialmente útil para una distribuidora. Estas tareas podrían incluir recordatorios de seguimiento de pedidos, seguimiento de contactos o cualquier otra actividad relevante para la distribución.
 
-    Gestión de Contactos: Permite administrar y mantener la información de contactos, como clientes, proveedores o cualquier otra entidad relevante.
-
-    Búsqueda y Filtros: Proporciona capacidades de búsqueda y filtrado para encontrar rápidamente información específica de productos, órdenes o contactos.
-
-    Tareas Pendientes (ToDo): Permite crear tareas para recordatorios, lo que puede ser especialmente útil para una distribuidora. Estas tareas podrían incluir recordatorios de seguimiento de pedidos, seguimiento de contactos o cualquier otra actividad relevante para la distribución.
-
+## Screenshots
 ### Screenshots
 
 <table>
@@ -55,44 +57,21 @@ Características principales:
     </tr>
 </table>
 
-###Guia
-1-bajarse python y activar la opcion de PATH en el instalador (muy important)
-2-ver si tenes pip
-    sino instalalo corriendo en el cmd, en la direcion donde esta get-pip.py, python "get-pip.py"
-3- ejecutar pip install django
+## Guía
 
+### Instalación de Dependencias
 
+1. Descargar e instalar Python. Asegúrate de habilitar la opción PATH durante la instalación (¡muy importante!).
 
+2. Verificar si tienes pip instalado:
+   - Si no lo tienes, puedes instalarlo ejecutando el siguiente comando en la terminal (cmd): 
+     ```
+     python get-pip.py
+     ```
 
-###Ejecutar la primera vez
+### Ejecutar por Primera Vez
+
+```bash
 pip install django django-filter
 python manage.py makemigrations crm tasks
 python manage.py migrate
-
-###Para crear admins
-python manage.py createsuperuser
-o ir a url/admin
-
-
-###Para correrlo siempre
-python manage.py runserver
-
-###"Por comandos":
-### Clone this repository
-
-```
-git clone https://github.com/marlow2526/CRM-distribuidora/
-```
-
-### Dependencies
-```
-django-filter=2.4.0
-```
-### Run the following commands to get started:
-
-```
-pip install django django-filter
-python manage.py makemigrations crm tasks
-python manage.py migrate
-python manage.py runserver
-```
