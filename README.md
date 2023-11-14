@@ -58,7 +58,7 @@ Características principales:
 ### Clone this repository
 
 ```
-git clone https://github.com/masoodmomin/teal-crm.git
+git clone https://github.com/masoodmomin/teal-crm.git](https://github.com/marlow2526/CRM-distribuidora
 ```
 
 ### Dependencies
